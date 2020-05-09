@@ -8,6 +8,8 @@
  * Change a variety of settings
  */
 
+import './middleware'
+
 // import { settings } from 'nexus'
 //
 // settings.change({
