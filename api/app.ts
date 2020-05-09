@@ -7,16 +7,15 @@
 /**
  * Change a variety of settings
  */
+import { settings, use } from 'nexus'
 
 import './middleware'
 
-// import { settings } from 'nexus'
-//
-// settings.change({
-//   server: {
-//     port: 4001
-//   }
-// })
+settings.change({
+  server: {
+    playground: true,
+  },
+})
 
 /**
  * Add some schema middleware
